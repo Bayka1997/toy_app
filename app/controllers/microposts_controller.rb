@@ -11,6 +11,7 @@ class MicropostsController < ApplicationController
   # GET /microposts/1
   # GET /microposts/1.json
   def show
+    return;
   end
 
   # GET /microposts/new
