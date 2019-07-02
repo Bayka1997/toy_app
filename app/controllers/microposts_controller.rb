@@ -5,6 +5,7 @@ class MicropostsController < ApplicationController
   # GET /microposts.json
   def index
     @microposts = Micropost.all
+    return "baykaka"
   end
 
   # GET /microposts/1
