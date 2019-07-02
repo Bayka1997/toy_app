@@ -5,15 +5,12 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    @users = User.all
-    "code tại nhánh 01"
-    "nhanh 01"
-    "nhanh 01 code code code"
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
+    "nhanh 03"
   end
 
   # GET /users/new
