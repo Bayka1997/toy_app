@@ -12,6 +12,9 @@ class UsersController < ApplicationController
   def show
     # code c1
     "bay"
+    "nhanh 03"
+    "b2"
+    "code c2"
   end
 
   # GET /users/new
@@ -26,6 +29,8 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    # code c2
+    return;
     @user = User.new(user_params)
 
     respond_to do |format|
