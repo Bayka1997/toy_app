@@ -10,8 +10,8 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    "nhanh 03"
-    "b2"
+    # code c1
+    "bay"
   end
 
   # GET /users/new

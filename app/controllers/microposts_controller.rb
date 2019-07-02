@@ -10,8 +10,9 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/1
   # GET /microposts/1.json
-  def show
-    return;
+  def :show
+    # code c1
+    return "bay";
   end
 
   # GET /microposts/new
